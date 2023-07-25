@@ -1,6 +1,8 @@
 package main
 
-import "FreshQiwi/cmd/internal/getQuotes"
+import (
+	"FreshQiwi/internal/getQuotes"
+)
 
 func main() {
 	getQuotes.GetQuotes()
